@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bully Climbing Co.</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>        
+        <img id="logo" src="img/bully.png" alt="bully.png" height="148px">
+        <div class="coming-soon">
+            <h1>Coming Soon.</h1>
+            <button id="git">Get in touch</button>
+        </div>
+    </header>
+
+    <img class="background-image" id="mobileImage" src="https://img1.wsimg.com/isteam/ip/f546344e-7c2d-43d9-b044-c048107baf58/IMG_0229.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:740,h:300,cg:true,m/cr=w:740,h:300,ax:56.527055946193826%25,ay:34.34782608695652%25" alt="bully_climb_mobile">
+    
+    <div class="main-content">
+       <div class="content" id="aboutUs">
+            <div id="abtCont">
+                <h2 class="content-title">About Us</h2>
+                <hr class="content-hr">
+                <p class="content-desc">A Pittsburgh, PA based climbing supply company focused on sustainability, craftsmanship, and design.</p>
+    
+                <h3 class="content-sub-title">Visit Us Soon</h3>
+                <p class="content-desc">We are working hard towards producing high quality holds, hangboards and other training supplies. Check back with us soon for updates on available merchandise and where to find it!</p>
+       
+            </div>
+        </div>
+        <img class="content background-image" id="desktopImage" src="https://img1.wsimg.com/isteam/ip/f546344e-7c2d-43d9-b044-c048107baf58/IMG_0229.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,h:500,cg:true,m/cr=w:600,h:500,ax:56.527055946193826%25,ay:34.34782608695652%25" alt="bully_climb_desktop">
+    
+
+        <div class="content"  id="contactUs">
+            <h2 class="content-title">Contact Us</h2>
+            <hr class="content-hr">
+            <p class="content-desc">Sign up for updates on product release dates + request other information below.</p>
+    
+            <form id="cuForm" action="" method="post">
+                <div class="input-holder">
+                    <input type="text" name="name"  id="cuName" placeholder="Name" required>
+                    <!-- <label for="name">Name</label> -->
+                </div>
+                <div class="input-holder">
+                    <input type="email" name="email" id="cuEmail" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    <!-- <label for="email">Email</label> -->
+                </div>
+                <div class="input-holder">
+                    <textarea name="message" id="cuMsg" cols="30" rows="10" placeholder="Messsage"></textarea>
+                </div>
+                <button id="cuFormButton">Send</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <br>
+        <p>Copyright &copy; 2020 Bully Climbing - All rights Reserved.</p>
+        <br>
+        <p>Created by <a>Lyndon.dshelton</a></p>
+    </footer>
+</body>
+</html>

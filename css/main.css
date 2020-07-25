@@ -1,0 +1,171 @@
+
+@font-face {
+    font-family: LeagueSpartan;
+    font-weight: bold;
+    src: url("../fonts/LeagueSpartan-Bold.otf") format("opentype");
+}
+
+@keyframes logospin {
+    0% {transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica', 'arial', 'sans-serif';
+}
+
+
+/* body{
+    background-image: linear-gradient(rgba(165, 154, 142, 0.77) 0%, rgba(165, 154, 142, 0.77) 100%), url("https://img1.wsimg.com/isteam/stock/319/:/rs=w:1360,h:840,cg:true,m/cr=w:1360,h:840,a:cc");
+    background-attachment: fixed;
+} */
+header{
+    background-image: linear-gradient(rgba(165, 154, 142, 0.77) 0%, rgba(165, 154, 142, 0.77) 100%), url("https://img1.wsimg.com/isteam/stock/319/:/rs=w:1360,h:840,cg:true,m/cr=w:1360,h:840,a:cc");
+    background-attachment: fixed;
+    height: 800px;
+
+}
+
+#logo{
+    display: block;
+    margin: 0px auto 250px auto;
+    padding-top: 25px;
+
+    animation: logospin 10s linear infinite;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+.coming-soon{
+    text-align: center;
+    margin: auto;
+}
+
+.coming-soon h1{
+    font-size: 62px;
+    margin-bottom: 35px;
+    font-family: 'LeagueSpartan';
+}
+
+#git{
+    background-color: rgb(8,8,8);
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border-style:none;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    width: 50%;
+    margin: auto;
+}
+
+#aboutUs{
+    margin: 0px;
+}
+#abtCont{
+    width: 70%;
+    margin: auto;
+}
+
+.content-title{
+    margin: 25px 0px 24px 0px;
+    font-size: 44px;
+    font-family: 'LeagueSpartan';
+    color: #9e9386;
+}
+
+.content-hr{
+    width: 50px;
+    color: rgba(226, 226, 226, 0.377);;
+}
+.content-desc, .content-hr, .content-sub-title{
+    margin: 0px 0px 40px 0px;
+}
+
+.content-desc{
+    font-size: 16px;
+}
+
+#contactUs{
+    width: 1160px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#contactUs hr{
+    margin: 0px auto 40px auto;
+}
+
+#contactUs .content-desc{
+    max-width: 66.667%;
+    font-size: 22px;
+    margin: 0px auto 40px;
+}
+
+#cuForm{
+    max-width: 66.667%;
+    margin: 0px auto 40px;
+}
+
+#cuForm label{
+    position: absolute;
+    top: 33%;
+    left: 16px;
+}
+
+.input-holder{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+#cuName, #cuEmail, #cuMsg{
+    width: 100%;
+    border: none;
+}
+
+#cuName, #cuEmail{
+    padding: 25px 16px 7px;
+    font-size: 16px;
+}
+
+#cuMsg{
+    padding: 16px;
+}
+
+#cuFormButton{
+    background: rgb(165, 154, 142);
+    font-size: 14px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-weight: 700;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+#mobileImage{
+    display: none;
+}
+
+footer{
+    background: rgb(22, 22, 22);
+    height: 100px;
+    color: rgb(169, 169, 169);
+    text-align: center;
+}
