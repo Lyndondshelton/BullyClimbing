@@ -25,10 +25,14 @@ header{
     height: 800px;
 }
 
+#logoCont{
+    padding-top: 100px;
+}
+
 #logo{
     display: block;
     margin: 0px auto 250px auto;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     animation: logospin 10s linear infinite;
 }
 
