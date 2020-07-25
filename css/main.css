@@ -19,23 +19,16 @@
     font-family: 'Helvetica', 'arial', 'sans-serif';
 }
 
-
-/* body{
-    background-image: linear-gradient(rgba(165, 154, 142, 0.77) 0%, rgba(165, 154, 142, 0.77) 100%), url("https://img1.wsimg.com/isteam/stock/319/:/rs=w:1360,h:840,cg:true,m/cr=w:1360,h:840,a:cc");
-    background-attachment: fixed;
-} */
 header{
     background-image: linear-gradient(rgba(165, 154, 142, 0.77) 0%, rgba(165, 154, 142, 0.77) 100%), url("https://img1.wsimg.com/isteam/stock/319/:/rs=w:1360,h:840,cg:true,m/cr=w:1360,h:840,a:cc");
     background-attachment: fixed;
     height: 800px;
-
 }
 
 #logo{
     display: block;
     margin: 0px auto 250px auto;
     padding-top: 25px;
-
     animation: logospin 10s linear infinite;
 }
 
@@ -76,6 +69,7 @@ header{
 #aboutUs{
     margin: 0px;
 }
+
 #abtCont{
     width: 70%;
     margin: auto;
